@@ -1,0 +1,547 @@
+{
+  "geocoded_waypoints": [
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJlTII7imPsUcRZVhWSZXcgHc",
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJl2KHftaIsUcRDJf-jbDFbTk",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 53.5853024,
+          "lng": 10.0236681
+        },
+        "southwest": {
+          "lat": 53.54616189999999,
+          "lng": 10.0066369
+        }
+      },
+      "copyrights": "Map data ©2022 GeoBasis-DE/BKG (©2009)",
+      "legs": [
+        {
+          "arrival_time": {
+            "text": "4:46 PM",
+            "time_zone": "Europe/Berlin",
+            "value": 1670255188
+          },
+          "departure_time": {
+            "text": "4:12 PM",
+            "time_zone": "Europe/Berlin",
+            "value": 1670253155
+          },
+          "distance": {
+            "text": "7.0 km",
+            "value": 7016
+          },
+          "duration": {
+            "text": "34 mins",
+            "value": 2033
+          },
+          "end_address": "Moorfuhrtweg 11, 22301 Hamburg, Germany",
+          "end_location": {
+            "lat": 53.5853024,
+            "lng": 10.0089401
+          },
+          "start_address": "Sonninstraße 17, 20097 Hamburg, Germany",
+          "start_location": {
+            "lat": 53.54616189999999,
+            "lng": 10.0180242
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.4 km",
+                "value": 367
+              },
+              "duration": {
+                "text": "5 mins",
+                "value": 294
+              },
+              "end_location": {
+                "lat": 53.54754639999999,
+                "lng": 10.0227865
+              },
+              "html_instructions": "Walk to Hammerbrook (City Süd)",
+              "polyline": {
+                "points": "ofyeIssc|@a@wBO}@[_BBOFk@Ke@C@EBCBGa@AKEc@?EESIa@Ou@Ou@Kk@AKOu@Ke@EMEII[CKSy@GWWg@AC"
+              },
+              "start_location": {
+                "lat": 53.54616189999999,
+                "lng": 10.0180242
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "43 m",
+                    "value": 43
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 39
+                  },
+                  "end_location": {
+                    "lat": 53.54632580000001,
+                    "lng": 10.0186166
+                  },
+                  "html_instructions": "Head <b>northeast</b>",
+                  "polyline": {
+                    "points": "ofyeIssc|@a@wB"
+                  },
+                  "start_location": {
+                    "lat": 53.54616189999999,
+                    "lng": 10.0180242
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "79 m",
+                    "value": 79
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 53
+                  },
+                  "end_location": {
+                    "lat": 53.5464886,
+                    "lng": 10.0197112
+                  },
+                  "html_instructions": "Continue straight",
+                  "maneuver": "straight",
+                  "polyline": {
+                    "points": "qgyeIkwc|@O}@[_BBOFk@"
+                  },
+                  "start_location": {
+                    "lat": 53.54632580000001,
+                    "lng": 10.0186166
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "14 m",
+                    "value": 14
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 18
+                  },
+                  "end_location": {
+                    "lat": 53.5465504,
+                    "lng": 10.0199017
+                  },
+                  "html_instructions": "Turn <b>left</b> toward <b>Nagelsweg</b><div style=\"font-size:0.9em\">Take the stairs</div>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "qhyeIe~c|@Ke@"
+                  },
+                  "start_location": {
+                    "lat": 53.5464886,
+                    "lng": 10.0197112
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "9 m",
+                    "value": 9
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 6
+                  },
+                  "end_location": {
+                    "lat": 53.54662279999999,
+                    "lng": 10.0198453
+                  },
+                  "html_instructions": "Turn <b>left</b> onto <b>Nagelsweg</b>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "}hyeIk_d|@C@EBCB"
+                  },
+                  "start_location": {
+                    "lat": 53.5465504,
+                    "lng": 10.0199017
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.2 km",
+                    "value": 222
+                  },
+                  "duration": {
+                    "text": "3 mins",
+                    "value": 178
+                  },
+                  "end_location": {
+                    "lat": 53.54754639999999,
+                    "lng": 10.0227865
+                  },
+                  "html_instructions": "Turn <b>right</b><div style=\"font-size:0.9em\">Take the stairs</div>",
+                  "maneuver": "turn-right",
+                  "polyline": {
+                    "points": "kiyeIa_d|@Ga@AKEc@?EESIa@Ou@Ou@Kk@AKOu@Ke@EMEII[CKSy@GWWg@AC"
+                  },
+                  "start_location": {
+                    "lat": 53.54662279999999,
+                    "lng": 10.0198453
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "1.6 km",
+                "value": 1591
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 132
+              },
+              "end_location": {
+                "lat": 53.552993,
+                "lng": 10.0066369
+              },
+              "html_instructions": "Commuter train towards Altona",
+              "polyline": {
+                "points": "iiyeI}vd|@?@w@h@GDIHOJOJ_@VKHc@ZOJQJcBlAuBxAYRs@d@q@n@QROPYd@MRKPGNEHEHSb@Up@Mp@ENG`@Ih@ANC^CXAFCr@?HCxA@T?t@?DDv@VlBD^BP@NHn@Hd@Jv@NfA?BPnANpAH|@B^B^?@Bl@@v@BhA?t@?H?T?RAN?L?FGnAGdAC`@UhCE\\Kj@Kl@Kb@IXEVK^GTKZ_@fAc@dASd@MRMROPOP]ZOLOLWPULWJC@SFA?SHWJgBn@eA^SHRvB"
+              },
+              "start_location": {
+                "lat": 53.54661309999999,
+                "lng": 10.0236681
+              },
+              "transit_details": {
+                "arrival_stop": {
+                  "location": {
+                    "lat": 53.552993,
+                    "lng": 10.0066369
+                  },
+                  "name": "Hamburg Central Station"
+                },
+                "arrival_time": {
+                  "text": "4:19 PM",
+                  "time_zone": "Europe/Berlin",
+                  "value": 1670253582
+                },
+                "departure_stop": {
+                  "location": {
+                    "lat": 53.54661309999999,
+                    "lng": 10.0236681
+                  },
+                  "name": "Hammerbrook (City Süd)"
+                },
+                "departure_time": {
+                  "text": "4:17 PM",
+                  "time_zone": "Europe/Berlin",
+                  "value": 1670253450
+                },
+                "headsign": "Altona",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Hamburger Verkehrsverbund (hvv)",
+                      "phone": "011 49 40 19449",
+                      "url": "http://www.hvv.de/"
+                    }
+                  ],
+                  "color": "#652d91",
+                  "short_name": "S31",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+                    "local_icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/de-sbahn.png",
+                    "name": "Commuter train",
+                    "type": "COMMUTER_TRAIN"
+                  }
+                },
+                "num_stops": 1
+              },
+              "travel_mode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "0.1 km",
+                "value": 135
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 104
+              },
+              "end_location": {
+                "lat": 53.5528851,
+                "lng": 10.0086702
+              },
+              "html_instructions": "Walk to HBF/Kirchenallee",
+              "polyline": {
+                "points": "}szeIeta|@YDGm@Eo@Xi@jAQl@K"
+              },
+              "start_location": {
+                "lat": 53.5534311,
+                "lng": 10.007872
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "14 m",
+                    "value": 14
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 9
+                  },
+                  "end_location": {
+                    "lat": 53.55355609999999,
+                    "lng": 10.0078372
+                  },
+                  "html_instructions": "Head <b>north</b> toward <b>Kirchenallee</b>",
+                  "polyline": {
+                    "points": "}szeIeta|@YD"
+                  },
+                  "start_location": {
+                    "lat": 53.5534311,
+                    "lng": 10.007872
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "32 m",
+                    "value": 32
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 26
+                  },
+                  "end_location": {
+                    "lat": 53.5536251,
+                    "lng": 10.0083137
+                  },
+                  "html_instructions": "Turn <b>right</b> toward <b>Kirchenallee</b>",
+                  "maneuver": "turn-right",
+                  "polyline": {
+                    "points": "wtzeI_ta|@Gm@Eo@"
+                  },
+                  "start_location": {
+                    "lat": 53.55355609999999,
+                    "lng": 10.0078372
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "89 m",
+                    "value": 89
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 69
+                  },
+                  "end_location": {
+                    "lat": 53.5528851,
+                    "lng": 10.0086702
+                  },
+                  "html_instructions": "Turn <b>right</b> onto <b>Kirchenallee</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                  "maneuver": "turn-right",
+                  "polyline": {
+                    "points": "euzeI}va|@Xi@jAQl@K"
+                  },
+                  "start_location": {
+                    "lat": 53.5536251,
+                    "lng": 10.0083137
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "4.6 km",
+                "value": 4635
+              },
+              "duration": {
+                "text": "16 mins",
+                "value": 960
+              },
+              "end_location": {
+                "lat": 53.5838007,
+                "lng": 10.0105679
+              },
+              "html_instructions": "Bus towards U Borgweg",
+              "polyline": {
+                "points": "mqzeIwya|@@VSDkAPeATc@HUDw@PeAPUBo@LOHE?E?A?EAGCMe@WmAGWEYKMIGEECECEACIOq@}@OSCEQYYg@U]_@m@k@w@OMEGeAwAAA{@uAW_@u@cAy@qAe@q@S[KKQUMg@W}@KQIM]e@g@s@]e@Y]IECCOKQIOIWMCA[MQEUGKCK?k@YMGMEKGIEKIIGIGIIIKKMIOCCEIG_@GQYm@We@[q@MOWc@c@{@Ka@SUEGEIEEEECCICGCICEAE?E@E@QHULOFmAl@MLQRa@XCAOCUEKAI?M?M@Q?O@]DWNQ@O@M?KDu@FE?s@JI@e@HAkAEiD?]I_E?WAKEMEKEKAIAI^GTGVGf@@JPFHt@rAJPRNJRt@pAdAjBH\\DL?@J\\DT?R@J?F@F?F@FKAI?M?M@Q?O@]DWNQ@O@M?KDu@FE?s@JI@e@Hc@FM@A?]B_@D}@Lc@Fu@HQBQBQBk@DK@YDSBa@DIBM@YLEi@q@mI?Sg@XSLIDIFINg@ZgBdAoAt@GDMJOJWNsAz@gAp@GBi@Z[PWNID}@h@o@`@SNQHMHMDSDQBa@Fo@H[DUDWBYDYDWDO@aALa@FWDeALiC\\sBViBTcALa@FI@q@HUDWBI@KBKBOHKDQJMHGDC@GDUNKH]VQLm@f@}@t@uB|AUPUNe@^g@\\SN[Zy@p@SPGFCBmAbAkA|@s@j@kErDe@eBUu@FG"
+              },
+              "start_location": {
+                "lat": 53.5530328,
+                "lng": 10.0087563
+              },
+              "transit_details": {
+                "arrival_stop": {
+                  "location": {
+                    "lat": 53.5838007,
+                    "lng": 10.0105679
+                  },
+                  "name": "Goldbekplatz"
+                },
+                "arrival_time": {
+                  "text": "4:43 PM",
+                  "time_zone": "Europe/Berlin",
+                  "value": 1670254980
+                },
+                "departure_stop": {
+                  "location": {
+                    "lat": 53.5530328,
+                    "lng": 10.0087563
+                  },
+                  "name": "HBF/Kirchenallee"
+                },
+                "departure_time": {
+                  "text": "4:27 PM",
+                  "time_zone": "Europe/Berlin",
+                  "value": 1670254020
+                },
+                "headsign": "U Borgweg",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Hamburger Verkehrsverbund (hvv)",
+                      "phone": "011 49 40 19449",
+                      "url": "http://www.hvv.de/"
+                    }
+                  ],
+                  "short_name": "6",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                    "name": "Bus",
+                    "type": "BUS"
+                  }
+                },
+                "num_stops": 9
+              },
+              "travel_mode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 288
+              },
+              "duration": {
+                "text": "3 mins",
+                "value": 208
+              },
+              "end_location": {
+                "lat": 53.5853024,
+                "lng": 10.0089401
+              },
+              "html_instructions": "Walk to Moorfuhrtweg 11, 22301 Hamburg, Germany",
+              "polyline": {
+                "points": "_r`fIydb|@Tt@d@dBIFEBI?EAEA]OOIc@U[OKEI?O?GDEF[d@[d@s@hAk@z@"
+              },
+              "start_location": {
+                "lat": 53.5838364,
+                "lng": 10.0105302
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "61 m",
+                    "value": 61
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 43
+                  },
+                  "end_location": {
+                    "lat": 53.58354060000001,
+                    "lng": 10.0097503
+                  },
+                  "html_instructions": "Head <b>southwest</b> on <b>Semperstraße</b> toward <b>Mühlenkamp</b>",
+                  "polyline": {
+                    "points": "_r`fIydb|@Tt@d@dB"
+                  },
+                  "start_location": {
+                    "lat": 53.5838364,
+                    "lng": 10.0105302
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.1 km",
+                    "value": 107
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 82
+                  },
+                  "end_location": {
+                    "lat": 53.5844683,
+                    "lng": 10.0100639
+                  },
+                  "html_instructions": "Turn <b>right</b> onto <b>Goldbekpl.</b>",
+                  "maneuver": "turn-right",
+                  "polyline": {
+                    "points": "cp`fI}_b|@IFEBI?EAEA]OOIc@U[OKEI?O?"
+                  },
+                  "start_location": {
+                    "lat": 53.58354060000001,
+                    "lng": 10.0097503
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.1 km",
+                    "value": 120
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 83
+                  },
+                  "end_location": {
+                    "lat": 53.5853024,
+                    "lng": 10.0089401
+                  },
+                  "html_instructions": "<b>Goldbekpl.</b> turns slightly <b>left</b> and becomes <b>Moorfuhrtweg</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                  "polyline": {
+                    "points": "}u`fI{ab|@GDEF[d@[d@s@hAk@z@"
+                  },
+                  "start_location": {
+                    "lat": 53.5844683,
+                    "lng": 10.0100639
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "ofyeIssc|@q@uD[_BBOFk@Ke@IDCBGa@Go@_@qBm@cDQs@Oe@WeAGWWg@xDsDw@j@q@f@oA|@{F~DmAx@cAbAcA|Ag@fAc@bBMp@SrBI~CFhCrAdKj@bFJnBD`EAfAS~D[fDWxA[tA_AxCw@jB[f@_@b@m@h@g@^m@Xm@RyEdBRvBwAuFYDGm@Eo@Xi@xB][Q@V_BVwDv@{AT_AVSAGCMe@_@eBEYKMOMS_@wAqBo@eAkAeBUUgAyAsAuBoBuCwAoBe@eBU_@}B}Co@_@gAg@g@MWCsAo@i@_@i@s@IMOq@q@sAi@aA{@_BKa@SUKQKK_@OKAKBeClA_@`@a@XCAe@IUA}@B]DWNa@BuAL}@Le@HAkAEgEIwEGYKWCSt@OVGf@@RZ`AdBRNJRzB|DNj@J^DT?R@R@N@FKAW?_@@m@FWNQ@]@{BXaBT}BV}BXcBPmANYLEi@q@aJoAt@INg@ZwDzB}@l@mElC_FvCa@Js@JyBX}G|@_PrBy@L{@d@sCtBsDrCk@`@}BhByAnAyC`C_G~E{@{CFGGFz@zCOJOAc@Q{Au@Y?MLwCpE"
+      },
+      "summary": "",
+      "warnings": [
+        "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypoint_order": []
+    }
+  ],
+  "status": "OK"
+}
