@@ -4,6 +4,7 @@ import com.example.immodistance.pojo.Direction;
 import com.example.immodistance.pojo.Leg;
 import com.example.immodistance.pojo.Route;
 import com.example.immodistance.pojo.Step;
+import com.example.immodistance.pojo.Vehicle;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
@@ -12,7 +13,10 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.mockito.junit.jupiter.MockitoSettings;
 import org.mockito.quality.Strictness;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.StringJoiner;
+import java.util.stream.Collectors;
 
 @MockitoSettings(strictness = Strictness.LENIENT)
 @ExtendWith({MockitoExtension.class})
@@ -22,18 +26,11 @@ class ProxyTest {
     public void should() throws Exception {
         final ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-        final Direction direction = objectMapper.readValue(getClass().getResourceAsStream("/googleResponse.json"), Direction.class);
-        final Route route = direction.routes.get(0);
-        final Leg leg = route.legs.get(0);
-        final int distance = leg.distance.value;
-        final int duration = leg.duration.value / 60;
-        final List<Step> transitSteps = leg.steps.stream().filter(x -> x.travelMode.equals("TRANSIT")).toList();
-        final List<Step> walkingSteps = leg.steps.stream().filter(x -> x.travelMode.equals("WALKING")).toList();
-        final int minutesTransit = transitSteps.stream().mapToInt(x -> x.duration.value).sum() / 60;
-        final int minutesWalking = walkingSteps.stream().mapToInt(x -> x.duration.value).sum() / 60;
-        DistanceData distanceData = new DistanceData(distance, duration, transitSteps.size(), walkingSteps.size(), minutesTransit, minutesWalking);
+        final Direction directionTransit = objectMapper.readValue(getClass().getResourceAsStream("/googleResponseTransit.json"), Direction.class);
+        final Direction directionBike = objectMapper.readValue(getClass().getResourceAsStream("/googleResponseBike.json"), Direction.class);
+        final DistanceData distanceData = Proxy.convert(directionTransit, directionBike);
 
-        System.out.println("proxyData = " + direction);
+        System.out.println(distanceData);
     }
 
 }

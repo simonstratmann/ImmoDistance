@@ -21,11 +21,10 @@
                 let addressElement = $(this).find(".result-list-entry__address");
                 let address = addressElement.text();
 
-                if (address.search(/\d+,/gm) > -1) {
+                if (address.search(/\d+ ?\w?,/gm) > -1) {
                     $.get(`http://127.0.0.1:8080/directions?from=${address}`, function(data) {
-                        $(`<div>${data.distanceMeters} m - ${data.durationMinutes} min<br>`+
-                          `${data.minutesTransit} min ÖPNV - ${data.minutesWalking} min zu Fuß<br>`+
-                          `${data.numberOfTransitStops} Abschnitte ÖPNV - ${data.numberOfWalkingStops} Abschnitte zu Fuß</div>`
+                        $(`<div><br>${data.transitHtml} (${data.transitMinutes} min)<br>`+
+                          `<img src="https://maps.gstatic.com/consumer/images/icons/1x/directions_bike_grey800_24dp.png" width="15" height="15">: ${data.bikeMeters} m - ${data.bikeMinutes} min</div>`
 
                          )
                             .insertAfter( addressElement )

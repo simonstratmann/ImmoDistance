@@ -8,10 +8,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 final class DistanceData {
-    int distanceMeters;
-    int durationMinutes;
-    int numberOfTransitStops;
-    int numberOfWalkingStops;
-    int minutesTransit;
-    int minutesWalking;
+    int transitMinutes;
+   String transitHtml;
+   int bikeMinutes;
+   int bikeMeters;
 }
